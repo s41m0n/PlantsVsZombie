@@ -1,0 +1,106 @@
+* {
+   -fx-background: green;
+   -fx-text: 	yellowgreen;
+   -fx-hover: greenyellow;
+}
+
+#simpleMenu {
+	-fx-background-color: -fx-background ;
+}
+
+#gamingScene {
+	-fx-background-image: url("/images/Garden.png");
+	-fx-background-size: stretch;
+	-fx-background-repeat: no-repeat ;
+}
+
+#menuBar {
+	-fx-background-color: saddlebrown;	
+	-fx-border-color: brown ;
+  	-fx-border-width:2.0px;
+}
+
+#imageButton:focused {
+    -fx-background-color: -fx-hover;
+}
+
+.button {
+	-fx-text-fill: -fx-text  ;
+	-fx-background-color: transparent ;
+}
+
+.button:hover {
+    -fx-background-color: -fx-hover;
+}
+
+.label {
+	-fx-text-fill: -fx-text  ;
+}
+
+.combo-box {
+	-fx-background-color: transparent   ;
+}
+
+.combo-box .list-cell 
+{
+    -fx-background-color: transparent ;
+	-fx-text-fill: -fx-text;
+	-fx-alignment: baseline-center  ;	  
+}
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-background-color: -fx-background ;
+    -fx-alignment: baseline-center;
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-text-fill: -fx-hover;
+}
+
+.combo-box .arrow {
+    -fx-background-color: -fx-text;
+}
+
+.combo-box-popup .list-view 
+{
+    -fx-background-color: transparent;
+} 
+
+.text-field {
+	-fx-background-color: darkgreen;
+	-fx-text-fill: -fx-text;
+    -fx-prompt-text-fill: -fx-text;	
+} 
+
+.dialog-pane{
+  -fx-border-color: red ;
+  -fx-border-width:	5.0px;
+ }
+
+.dialog-pane > .button-bar > .container {
+  -fx-background-color:	-fx-background ;
+}
+
+.dialog-pane > .content.label {
+   -fx-background-color: -fx-background ;
+   -fx-text-fill:	-fx-text;
+}
+
+.dialog-pane:header .header-panel {
+  -fx-background-color: -fx-background ;
+}
+
+.dialog-pane:header .header-panel .label{
+  -fx-background-color: -fx-background ;
+  -fx-text-fill: red;
+}
+
+.dialog-pane .button{
+	-fx-background-color:transparent;
+	-fx-text-fill:	-fx-text ;
+ }
+
+.dialog-pane .button:hover{     
+  	-fx-background-color:-fx-hover;
+ }

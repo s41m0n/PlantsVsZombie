@@ -1,0 +1,5 @@
+[{"x":{"CONE_ZOMBIE":1},"y":15},
+{"x":{"BASIC_ZOMBIE":3,"CONE_ZOMBIE":2},"y":30},
+{"x":{"BASIC_ZOMBIE":3,"CONE_ZOMBIE":2},"y":35},
+{"x":{"BASIC_ZOMBIE":5,"CONE_ZOMBIE":3},"y":35},
+{"x":{"BASIC_ZOMBIE":6,"CONE_ZOMBIE":3},"y":35}]

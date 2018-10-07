@@ -1,0 +1,9 @@
+PLANTS VS ZOMBIES
+
+Developed by:
+
+Simone Magnani ~ View 
+Simone Peraccini ~ Controller 
+Lorenzo Rizzato ~ Model
+
+
